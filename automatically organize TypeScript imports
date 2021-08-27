@@ -1,0 +1,18 @@
+[src](https://eshlox.net/2019/12/02/vscode-automatically-organize-typescript-imports)
+
+VS Code has an option to remove any unused imports, sort existing imports by file paths, and sort named imports.
+
+VS Code - automatically organize TypeScript imports
+
+Open the settings (⇧⌘P or Ctrl+Shift+P), find Preferences: Configure Language Specific Settings... and then find the TypeScript. It will open the settings.json file. Now add the configuration.
+
+  "[typescript]": {
+      "editor.codeActionsOnSave": {
+          "source.organizeImports": true
+      }
+  },
+  "[typescriptreact]": {
+      "editor.codeActionsOnSave": {
+          "source.organizeImports": true
+      }
+  }
