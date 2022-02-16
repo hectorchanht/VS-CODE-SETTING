@@ -34,3 +34,42 @@ Now add the configuration.
 ```
 
 That's all. Whenever you save the *.ts or *.tsx file, the VS Code will automatically organize imports.
+
+### [Emmet Abbreviations](https://medium.com/neverrest/vs-code-emmet-abbreviations-and-snippets-make-your-life-easier-875505550607)
+
+1. Create initial code in html by using `! + TAB`
+![image](https://miro.medium.com/max/1400/1*ayQ9xBrLySC51FIdoQZs-Q.gif)
+
+2. Create class and id by using `.className` and `#idName`
+![image](https://miro.medium.com/max/1400/1*ztspDuH5wbh1Z4TsC9mjBg.gif)
+
+3. Create child element by using `>childElement`
+![image](https://miro.medium.com/max/1400/1*F9C_rTtBuQJwiStWx_G11g.gif)
+
+4. Create sibling element by using `+siblingName`
+Create sibling element
+![image](https://miro.medium.com/max/1400/1*TGmPAzHVRoHc0hd0JFguTg.gif)
+
+5. Create multiple lines of code by using `*`
+![image](https://miro.medium.com/max/1400/1*PxBcwHLmCebErE6NwcOFYg.gif)
+
+6. Create item numbering by using `$`
+![image](https://miro.medium.com/max/1400/1*gpH2m7MO3QUOyn8lbG3VZw.gif)
+
+7. Create text between html tag by using `{}`
+![image](https://miro.medium.com/max/1400/1*REqbx7dRv_XJ0XweLk12yg.gif)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
