@@ -1,4 +1,7 @@
+
 ### [Automatically organize TypeScript/JavaScript imports](https://eshlox.net/2019/12/02/vscode-automatically-organize-typescript-imports)
+<details>
+<summary>OPEN</summary>
 
 1. remove any unused imports, 
 2. sort existing imports by file paths, 
@@ -34,9 +37,13 @@ Now add the configuration.
 ```
 
 That's all. Whenever you save the *.ts or *.tsx file, the VS Code will automatically organize imports.
+</details>
 
 ### [Emmet Abbreviations](https://medium.com/neverrest/vs-code-emmet-abbreviations-and-snippets-make-your-life-easier-875505550607)
 
+<details>
+<summary>OPEN</summary>
+    
 1. Create initial code in html by using `! + TAB`
 ![image](https://miro.medium.com/max/1400/1*ayQ9xBrLySC51FIdoQZs-Q.gif)
 
@@ -58,7 +65,7 @@ Create sibling element
 
 7. Create text between html tag by using `{}`
 ![image](https://miro.medium.com/max/1400/1*REqbx7dRv_XJ0XweLk12yg.gif)
-
+</details>
 
 
 
