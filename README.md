@@ -1,6 +1,4 @@
-# VS-CODE-SETTING
-
-automatically organize TypeScript/JavaScript imports
+### [Automatically organize TypeScript/JavaScript imports](https://eshlox.net/2019/12/02/vscode-automatically-organize-typescript-imports)
 
 1. remove any unused imports, 
 2. sort existing imports by file paths, 
@@ -36,5 +34,3 @@ Now add the configuration.
 ```
 
 That's all. Whenever you save the *.ts or *.tsx file, the VS Code will automatically organize imports.
-
-  [src](https://eshlox.net/2019/12/02/vscode-automatically-organize-typescript-imports)
