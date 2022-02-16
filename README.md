@@ -81,12 +81,33 @@ Create sibling element
 <!-- <summary>HOW</summary> -->
 
 Using custom Emmet snippets
-You can create your own snippets by these steps
+
 * Click at a gear icon in left-bottom corner
-* Click ‘User Snippets’
+* Click `User Snippets`
 * Choose computer language that you prefer
 * JSON file in the chosen language will appear
 * It would have an example snippet for you
+
+```
+{
+	"console.log ": {
+		"prefix": "cc",
+		"body": [
+			"console.log(` ${TM_FILENAME} --- $1:`, $1)",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+	"function () {}": {
+		"body": [
+			"function () {$1}",
+			"$2"
+		],
+		"prefix": "fn"
+	}
+}
+```
+
 
 Therefore, you can start create your own snippet by looking at the example. There are 4 components that you have to define.
 
