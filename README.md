@@ -89,22 +89,26 @@ Using custom Emmet snippets
 * It would have an example snippet for you
 
 ```
-{
-	"console.log ": {
-		"prefix": "cc",
-		"body": [
-			"console.log(` ${TM_FILENAME} --- $1:`, $1)",
-			"$2"
-		],
-		"description": "Log output to console"
-	},
-	"function () {}": {
-		"body": [
-			"function () {$1}",
-			"$2"
-		],
-		"prefix": "fn"
-	}
+"console.log ": {
+	"prefix": "cc",
+	"body": [
+		"console.log(` ${TM_FILENAME} --- $1:`, $1)",
+		"$2"
+	],
+	"description": "Log output to console"
+},
+"function () {}": {
+	"body": [
+		"function () {$1}",
+		"$2"
+	],
+	"prefix": "fn"
+},
+"div": {
+	"prefix": "div",
+	"body": [
+		"<div className='$1'>$2</div>"
+	]
 }
 ```
 
